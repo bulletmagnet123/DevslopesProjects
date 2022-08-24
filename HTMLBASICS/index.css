@@ -1,0 +1,13 @@
+h3{
+    color: white;
+    background-color: black;
+}
+td {
+    padding: 0 10px;
+   }
+.navbar{
+    float: left;
+}
+.container{
+    float: left;
+}

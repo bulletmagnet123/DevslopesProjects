@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+        </style>
+        <title>Submit Video Form</title>
+    </head>
+    <body class="formBody">
+        <header>
+            <nav>
+                <a href="./index.html"><b>Home</b></a>
+                <a href="./pages/collection-1.html"><b>Collections 1</b></a>
+                <a href="./pages/collection-2.html"><b>Collections 2</b></a>
+                <a href="./pages/collection-3.html"><b>Collections 3</b></a>
+                <a href="./form.html"><b>New Video</b></a>
+                <link rel="stylesheet" href="styles.css" />
+            </nav>
+        </header>
+        <h1>Add new VIdeo</h1>
+        <form class="formPage">
+            <label for="videoTitle"><b> Video title </b></label> <br />
+            <input
+                type="text"
+                id="videoTitle"
+                name="videoTitle"
+                placeholder="Input value"
+                class="videoTitle"
+            />
+            <br />
+            <label for="descripton"><b>Descripton</b></label
+            ><br />
+            <textarea
+                name="descripton"
+                id="descripton"
+                cols="40"
+                rows="8"
+                placeholder="descripton of video"
+                class="description"
+            ></textarea>
+            <br />
+            <br />
+            <label for="file" class="labelFile"><b>Video</b></label
+            ><br />
+            <input type="file" class="fileupload" /> <br />
+            <br />
+            <select
+                name="collection"
+                id="collection"
+                class="collectionSelector"
+            >
+                <option>collection 1</option>
+                <option>collection 2</option>
+                <option>collection 3</option>
+            </select>
+            <input type="radio" class="radioForm" /> <b> public </b>
+            <input type="radio" class="radioForm" />
+            <b> private </b>
+            <br />
+            <br />
+            <br />
+            <br />
+            <input class="UploadVideo" type="submit" value="Upload Video" />
+        </form>
+    </body>
+    <hr />
+    <footer><h3>&copy: Copyright"</h3></footer>
+</html>

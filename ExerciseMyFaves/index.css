@@ -1,0 +1,25 @@
+table, th, tr, td {
+    border-style: groove;
+   }
+
+td {
+    padding: 0px 10px 0px 10px;
+    width: 400px;
+}
+
+img {
+    max-width: 250px;
+    border-radius: 25px ;
+}
+.like{
+    color: red;
+}
+.dislike{
+    color: blue;
+}
+header {
+    background-color: darkred;
+    color: yellow;
+}
+   
+

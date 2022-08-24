@@ -1,0 +1,22 @@
+body{
+    background-image: url("img.jpg");
+
+}
+.title{
+    
+}
+form{
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: ridge;
+    height: auto;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+input{
+    width: 97%;
+}
+.submit{
+    color: white;
+    background-color: green;
+}

@@ -1,0 +1,168 @@
+nav{
+    margin-left: 42%;
+    text-align: center;
+    color: red;
+    text-decoration: none;
+    border-style: double;
+    width: fit-content;
+    
+}
+nav:hover{
+    background-color: yellowgreen;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.index{
+    background-image: url("img.png");
+    color: red;
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Rubik', sans-serif;
+}  
+table{
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 5px;
+} 
+
+.formBody{
+    background-color: aquamarine;
+
+}
+.formPage{
+    background-color: lavender;
+    border-style: ridge;
+    width: 13%;
+    border-radius: 5px;
+    border-width: 5px;
+}
+.collection1{
+    background-color: blueviolet;
+    font-family: 'Rubik', sans-serif;
+}
+td{
+    border-style: dashed;
+}
+.featured{
+    text-align: center;
+}
+.indexTable{
+    margin-left: 15%;
+}
+.tableCl2{
+    border-style: double;
+    margin-left: 15%;
+    background-color: aquamarine;  
+}
+.tdCL2{
+    border-style: groove;
+}
+.headerCL2{
+    text-align: center;
+    background-color: lightcyan;
+}
+.collection2{
+    background-color: aquamarine;
+    font-family: 'Rubik', sans-serif;
+
+}
+.tbCL3{
+    border-style: groove;
+    margin-left: 15%;
+}
+.collection3{
+    background-color: lightcoral;
+    font-family: 'Rubik', sans-serif;
+}
+.titleCL3{
+    text-align: center;
+    color: aquamarine;
+    background-color: blueviolet;
+}
+.headerCL3{
+    text-align: center;
+    background-color: blueviolet;
+}
+.titlevd1{
+    text-align: center;
+}
+.video1{
+    margin-left: 38%;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 5px;
+}
+.video1p{
+    color: black;
+    background-color: aqua;
+    margin-top: 5%;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 5px;
+}
+.video1body{
+    background-color: cadetblue;
+    font-family: 'Rubik', sans-serif;
+}
+.titlevd7{
+    text-align: center;
+    background-color: aquamarine;
+    
+}
+.iframevd7{
+    margin-left: 38%;
+    border-style: groove;
+}
+.ptagvd7{
+    background-color: darkred;
+    color: yellow;
+}
+.bodyv7{
+    background-color: aquamarine;
+    font-family: 'Rubik', sans-serif;
+}
+.bodyv13{
+    background-color: lightpink;
+    font-family: 'Rubik', sans-serif;
+}
+.titlev13{
+    text-align: center;
+    background-color: lightcyan;
+}
+.pv13{
+    background-color: aquamarine;
+    font-family: 'Rubik', sans-serif;
+}
+.videov13{
+    margin-left: 38%;
+}
+.labelFile{
+}
+.description{
+    background-color: lightblue;
+}
+.collectionSelector{
+    color: aqua;
+}
+.UploadVideo{
+    color: black;
+    background-color: azure;
+}
+.formBody{
+    font-family: 'Rubik', sans-serif;
+}
+.fileupload{
+    border: 5px;
+    border-style: groove;
+}
+.videoTitle{
+    background-color: lightgoldenrodyellow;
+}

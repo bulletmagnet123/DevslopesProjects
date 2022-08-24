@@ -1,0 +1,66 @@
+
+.dotted{
+    border: 3px dotted green;
+}
+.dashed {
+    border-style: dashed;
+}
+.groove {
+    border-style: groove;
+    border-color: red;
+    border-width: 5px;
+}
+.ridge{
+    border-style: ridge;
+}
+.inset {
+    border-style: inset;
+}
+.outset {
+    border-style: outset;
+}
+.dotted {
+    border-style: dotted;
+}
+.none{
+    border-style: none;
+}
+.hidden{
+    border-style: hidden;
+}
+
+.double{
+    border-style: double;
+}
+.mixed{
+    border-top-style: dotted;
+    border-bottom-style: double;
+    border-right-style: dashed;
+    border-left-style: none;
+}
+
+.bottom-button{
+    margin-left: 20px;
+    margin: 20px 5px 40px;
+    padding: 10px 20px;
+}
+
+/*First top 2nd left/right, 3rd bottom 4th left */
+
+.title{
+    background-color: lightblue;
+    padding: 10px 20px;
+    width: 100px;
+    height: 100px;
+}
+input {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+ul {
+    background-color: tomato;
+    min-height: 100px;
+    max-height: 200px;
+    overflow: scroll;
+}

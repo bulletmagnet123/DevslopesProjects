@@ -1,0 +1,45 @@
+
+
+body{
+    background-color: lightcyan;
+    align-items: center;
+}
+section{
+    border-style: double;
+    border-radius: 4px;
+    
+}
+.intro{
+    text-align: center;
+    border-radius: 4px;
+    border-style: groove;
+    align-items: right;
+    background-color: lightgray;
+    font-family: 'Rubik', sans-serif;
+
+}
+.games-i-like{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.details{
+    text-align: center;
+    background-color: cadetblue;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: red;
+}
+.current{
+    text-align: center;
+}
+footer{
+    margin-top: 70px;
+    text-align: center;
+}
+img{
+    border-style: groove;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+}
