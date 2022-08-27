@@ -1,146 +1,75 @@
-* {
+.navbar {
+    display: flex;
+    padding: 1rem;
+    gap: 10px;
+    list-style-type: none;
+    position: sticky;
+    align-items: center;
+    height: 100%;
 
-    box-sizing: inherit;
-}
-
-body {
-    box-sizing: border-box;
 }
 
 .container {
-    display: grid;
     background-color: white;
-
-    padding: 1rem;
-    grid-template-rows: repeat(11, 150px);
-    grid-template-columns: repeat(16, 1fr);
-    gap: 10px;
 }
 
-.store {
-    grid-row: 1;
-    grid-column: 2;
+.name .nav-item-1 {
+    justify-content: space-between;
+    text-align: center;
 }
 
-.about {
-    grid-row: 1;
-    grid-column: 1;
-}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
 
-.gmail {
-    grid-row: 1;
-    grid-column: 13;
-}
-
-.images {
-    grid-row: 1;
-    grid-column: 14;
-}
-
-.dots {
-    grid-row: 1;
-    grid-column: 15;
-}
-
-.user {
-    grid-row: 1;
-    grid-column: 16;
 
 }
 
-.awiens {
-    width: 50px;
-    height: 50px;
+li {
+    padding-left: 35px;
+}
+
+.nav-list ul {
+    flex: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.name {}
+
+.nav-img {
+    margin-left: 0%;
     border-radius: 50%;
-
+    width: 120px;
+    height: 120px;
 }
 
-.google {
-    display: block;
-    width: 70%;
-    height: 70%;
-    object-fit: scale-down;
-    border-radius: 5px;
-    grid-row: 4;
-    grid-column: 7 / span 4;
-    width: 400px;
-    height: 400px;
-    justify-self: center;
+.name {}
+
+.item-1 {
+    text-align: center;
 }
 
-.searchContainer {
-    grid-row: 6 / span 1;
-    grid-column: 7 / span 4;
-    position: relative;
+.item-1>h1 {
+    text-align: center;
 }
 
-.search {
-    grid-row: 6;
-    grid-column: 7 / span 4;
-    height: 45px;
-    width: 100%;
-    border-radius: 10px;
+.nav-item-2 {}
 
+.nav-item-3 {}
 
+.container-body {
+    display: flex;
+    justify-content: center;
 }
 
-.icon {
-    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
-    background-size: 20px;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 13px;
-    left: 15px;
-}
+.item-1 {}
 
-.iconTwo {
-    background-size: 20px;
-
-    width: 40px;
-    height: 25px;
-    position: absolute;
-    top: 10px;
-    right: 25px;
-}
-
-
-.advertising {
-    grid-column: 1;
-    grid-row: 12;
-
-}
-
-.business {
-    grid-column: 2;
-    grid-row: 12;
-
-}
-
-.how {
-    grid-column: 3;
-    grid-row: 12;
-}
-
-.privacy {
-    grid-column: 12;
-    grid-row: 12;
-}
-
-.terms {
-    grid-column: 13;
-    grid-row: 12;
-}
-
-.settings {
-    grid-column: 14;
-    grid-row: 12;
-}
-
-.bottom {
-    display: grid;
-    grid-column: 1 / span 16;
-    grid-row: 11 / span 1;
-    border-style: groove;
-    background-color: dimgray;
+body {
+    background-color: black;
 }
