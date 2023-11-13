@@ -40,7 +40,7 @@
   color: #333;
 }
 .navbar-brand img {
-  width: 800px; /* Adjust the width as needed */
+  width: auto; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
 }
 .nav li:hover a {
@@ -48,15 +48,14 @@
 }
 
 .BannerOne {
-  padding-top: 5px; /* Adjust the top padding as needed */
-  text-align: justify; /* Align the text to the center */
-  display: flex; /* Enable flexbox layout */
-  flex-direction: column; /* Stack the text vertically */
-  justify-content: center; /* Center the content vertically */
-  align-items: center; /* Center the content horizontally */
-  height: 35vh; /* Set the height of the div to fill the viewport */
+  padding-top: 5px; 
+  text-align: justify;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  height: 35vh; 
 }
-
 .BannerOne h1 {
-  margin-bottom: 20px; /* Add some spacing between the headings */
+  margin-bottom: 20px;
 }
