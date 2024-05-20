@@ -145,3 +145,29 @@ body {
     margin-right: auto;
     text-align: center;
 }
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 1rem;
+    gap: 10px;
+    list-style-type: none;
+    position: sticky;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+
+}
+
+.LinksFooter {
+    display: flexbox;
+    list-style-type: none;
+
+}
+
+
+.topFIRSTlist {
+    color: black;
+
+}
