@@ -98,11 +98,7 @@ body {
     flex-basis: 100%;
 }
 
-@media screen and (max-width:1024px) {
-    .item-2 {
-        flex-wrap: wrap;
-    }
-}
+
 
 .item-2 img {
     max-width: 600px;
@@ -149,15 +145,13 @@ body {
 .footer {
     background-color: black;
     color: white;
-    display: flex;
+    display: flexbox;
     padding: 1rem;
     gap: 10px;
     list-style-type: none;
-    position: sticky;
     align-items: center;
     height: 100%;
     justify-content: center;
-
 }
 
 .LinksFooter {
@@ -205,13 +199,5 @@ body {
     text-align: justify;
     align-self: center;
     justify-content: center;
-    margin-left: -50;
-    margin-right: 50%;
-    flex: right;
-    flex: left;
-    justify-self: center;
     margin-top: 10%;
-
-    
-    
 }
