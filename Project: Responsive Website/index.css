@@ -3,9 +3,9 @@
 
 .container {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
-    min-height: 100vh; /* Full viewport height */
-    background-color: white; /* Container background */
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
 }
 
 
@@ -180,11 +180,11 @@ body {
 
 .footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: #333;
     color: #fff;
     padding: 20px;
-    flex-wrap: wrap;
 }
 
 .footerColumns {
@@ -193,12 +193,26 @@ body {
     width: 100%;
 }
 
-.footerColumn1, .footerColumn2, .footerColumn3 {
+.footerColumn1,
+.footerColumn2,
+.footerColumn3 {
     flex: 1;
-    margin: 10px;
+    padding: 10px;
+    text-align: center; 
 }
 
-/* Media query for screens smaller than 768px */
+.footerColumn1 {
+    text-align: center;
+}
+
+.footerColumn2 {
+    text-align: center;
+}
+
+.footerColumn3 {
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .footerColumns {
         flex-direction: column;
@@ -220,7 +234,7 @@ body {
     margin: 0;
 }
 .footer-icons{
-        margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     align-content: center;
     align-items: center;
@@ -228,9 +242,9 @@ body {
 
 @media (max-width: 768px) {
     .nav-list {
-        display: none; /* Hide the nav links by default */
+        display: none;
         flex-direction: column;
-        position: absolute; /* Make the nav list appear over content */
+        position: absolute;
         right: 0;
         top: 60px;
         background-color: #333;
@@ -249,7 +263,6 @@ body {
         flex-wrap: wrap;
     }
 
-    /* Align the menu to the right */
     .navbar {
         justify-content: space-between;
     }
