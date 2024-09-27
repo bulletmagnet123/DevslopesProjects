@@ -213,17 +213,6 @@ body {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    .footerColumns {
-        flex-direction: column;
-        align-items: center;
-    }
-    .footerColumn1, .footerColumn2, .footerColumn3 {
-        text-align: center;
-        margin: 10px 0;
-    }
-}
-
 .finisher {
     text-align: center;
     width: 100%;
@@ -261,10 +250,19 @@ body {
     .menu-toggle:checked + .menu-icon + .nav-list {
         display: flex;
         flex-wrap: wrap;
+        
     }
 
     .navbar {
         justify-content: space-between;
+    }
+    .footerColumns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerColumn1, .footerColumn2, .footerColumn3 {
+        text-align: center;
+        margin: 10px 0;
     }
 }
 
